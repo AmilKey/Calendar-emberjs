@@ -9,7 +9,7 @@ var Calendar = function() {
 };
 
 window.calendar = new Calendar();
-window.App = Ember.Application.create({
+window.App12121212 = Ember.Application.create({
     calendar: { 
 		day: new Date().getDate(),
         month: new Date().getMonth()+1, 

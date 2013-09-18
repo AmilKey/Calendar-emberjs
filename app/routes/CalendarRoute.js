@@ -1,3 +1,5 @@
+App = require('app')
+
 App.CalendarRoute = Em.Route.extend({
     serialize: function(obj) {
         return {
@@ -9,7 +11,7 @@ App.CalendarRoute = Em.Route.extend({
             day:   model.day,
             year: model.year,
             month: model.month,
-			days: calendar.getDaysInMonth(model.month, model.year)
+			days: 25//calendar.getDaysInMonth(model.month, model.year)
         };
         controller.set('content', obj);
     }

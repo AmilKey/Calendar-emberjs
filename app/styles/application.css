@@ -1,0 +1,58 @@
+.week span{
+	
+	background: #074CDF; 
+	padding: 4px 12px;
+	width: 24px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	border: 1px solid #ccc;
+}
+.days{
+	width: 350px;
+	margin:0 auto;
+}
+
+.calendar-menu{
+	width: 350px;
+	margin:0 auto;
+}
+
+.btnactive{
+	background: #074CDF; 
+	color: #fff;
+}
+
+.empty{
+	background: #fff;
+	border: none ;
+	cursor: auto;
+}
+
+.go a{
+	display: block;
+	width: 176px;
+	height: 42px;
+	margin: 25% auto auto auto;
+	background: #000;
+	color: #fff;
+	font: 40px/40px 'Ropa Sans', sans-serif, #fff;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
+.go a:hover{
+	display: block;
+	width: 176px;
+	height: 42px;
+	margin: 25% auto auto auto;
+	background: #000;
+	color: #fff;
+	font: 40px/40px 'Ropa Sans', sans-serif, #fff;
+	text-decoration: none;
+	padding: 10px;
+	cursor: pointer;
+}
+

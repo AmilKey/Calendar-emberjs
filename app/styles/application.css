@@ -1,5 +1,4 @@
 .week span{
-	
 	background: #074CDF; 
 	padding: 4px 12px;
 	width: 24px;
@@ -9,10 +8,13 @@
 	color: white;
 	border: 1px solid #ccc;
 }
+
 .days{
 	width: 350px;
 	margin:0 auto;
 }
+
+
 
 .calendar-menu{
 	width: 350px;
@@ -40,7 +42,6 @@
 	font: 40px/40px 'Ropa Sans', sans-serif, #fff;
 	text-decoration: none;
 	padding: 10px;
-
 }
 
 .go a:hover{

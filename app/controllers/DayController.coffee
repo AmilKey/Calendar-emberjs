@@ -7,6 +7,7 @@ module.exports = App.DayController = Ember.ObjectController.extend
     firstDay     = new Date(@get('yearSelected'), @get('monthSelected') - 1, 1).toString()
     lastDay      = new Date(@get('yearSelected'), @get('monthSelected'), 1, -1).toString()
     daysInMonth  = new Date(@get('yearSelected'), @get('monthSelected'), 1, -1).getDate()
+    daysInPrevMonth  = new Date(@get('yearSelected'), @get('monthSelected')-1, 1, -1).getDate()
     
     weekDays = 
       Mon:  0
@@ -21,10 +22,10 @@ module.exports = App.DayController = Ember.ObjectController.extend
 
     startWeekDay = weekDays[firstDay.split(' ')[0]]
     if startWeekDay > 0
-      for i in [0..startWeekDay-1]
+      for i in [startWeekDay-1..0]
         date = new Object()
-        date.day = ''
-        date.class = 'empty'
+        date.day = daysInPrevMonth - i 
+        date.class = 'prev-next-day'
         days.push(date)
 
     for i in [1..daysInMonth]
@@ -40,8 +41,8 @@ module.exports = App.DayController = Ember.ObjectController.extend
     if stopWeekDay > 0
       for i in [0..stopWeekDay-1]
         date = new Object()
-        date.day = ''
-        date.class = 'empty'
+        date.day = i+1
+        date.class = 'prev-next-day'
         days.push(date)
 
     return [

@@ -1,4 +1,7 @@
 App = require 'app'
 
 App.Router.map ->
-    @.resource 'calendar', { path: '/:year/:month/:day'}
+  @route 'home', {path: '/'}
+  @resource 'calendar', { path: '/year/:year/month/:month/day/:day'}
+
+ 

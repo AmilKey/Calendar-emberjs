@@ -10,8 +10,8 @@ require 'router'
 
 
 # ===== Routes =====
-require 'routes/CalendarRoute'
-require 'routes/IndexRoute'
+require 'routes/Home'
+require 'routes/Calendar'
 
 
 # ===== Store =====
@@ -28,6 +28,7 @@ require 'store'
 
 # ===== Controllers =====
 require 'controllers/CalendarController'
+require 'controllers/HomeController'
 
 
 # ===== Template Helpers =====
@@ -36,4 +37,5 @@ require 'controllers/CalendarController'
 
 # ===== Templates =====
 require 'templates/application'
+require 'templates/home'
 require 'templates/calendar'

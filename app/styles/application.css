@@ -1,0 +1,53 @@
+.week span{
+	
+	background: #074CDF; 
+	padding: 4px 12px;
+	width: 24px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+	border: 1px solid #ccc;
+}
+.days{
+	width: 350px;
+	margin:0 auto;
+}
+
+.calendar-menu{
+	width: 350px;
+	margin:0 auto;
+}
+
+.btnactive{
+	background: #074CDF; 
+	color: #fff;
+}
+
+.prev-next-day{
+	background: #DD2E2E;
+	cursor: auto;
+}
+
+.go button{
+	display: block;
+	width: 200px;
+	height: 60px;
+	margin: 25% auto auto auto;
+	background: #000;
+	color: #fff;
+	font: 40px/40px 'Ropa Sans', sans-serif, #fff;
+	border: none;
+}
+
+.go button:hover{
+	display: block;
+	width: 200px;
+	height: 60px;
+	margin: 25% auto auto auto;
+	background: #000;
+	color: #fff;
+	font: 40px/40px 'Ropa Sans', sans-serif, #fff;
+	cursor: pointer;
+}
+

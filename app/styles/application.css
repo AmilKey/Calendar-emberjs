@@ -1,3 +1,5 @@
+
+
 .week span{
 	
 	background: #074CDF; 
@@ -29,7 +31,7 @@
 	cursor: auto;
 }
 
-.go button{
+.go{
 	display: block;
 	width: 200px;
 	height: 60px;
@@ -40,7 +42,7 @@
 	border: none;
 }
 
-.go button:hover{
+.go:hover{
 	display: block;
 	width: 200px;
 	height: 60px;
